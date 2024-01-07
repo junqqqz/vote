@@ -1,0 +1,102 @@
+.bili-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 24px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.left-entry {
+    display: flex;
+}
+ 
+.left-entry .entry-title {
+    display: flex;
+    align-items:center;
+    line-height: 64px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.left-entry .entry-title svg {
+    margin-right: 6px;
+}
+.center-search-container {
+    flex:1;
+    height: 40px;
+    padding:0 48px 0 4px;
+    border-radius: 8px;
+    border: 1px solid #e3e5e7;
+    background-color: #f1f2f3;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.center-search-container:hover {
+    background-color: #fff;
+}
+/* .center-search-container input {
+    flex:1;
+    background: transparent;
+    line-height: 20px;
+    overflow: hidden;
+    padding:0 8px;
+    width: 300px;
+} */
+.center-search-container .nav-search-button{
+    position: absolute;
+    top:4px;
+    right:7px;
+    display: flex; 
+    align-items: center;
+    justify-content: center ;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color .3s;
+} 
+.center-search-container .nav-search-button:hover {
+    background-color: #e3e4e5;
+}
+.right-entry {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.right-entry .header-avatar {
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+    position: relative;
+}
+.right-entry .header-avatar a {
+    position: absolute;
+    top:6px;
+    left:10px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    background-color: #00aeec;
+    display: flex;
+    justify-content: center;
+    border: 2px ;
+    color: #fff;
+
+}
+.right-entry .right-entry-items {
+    min-width: 50px;
+    margin-right: 4px;
+}
+
+.right-entry .right-entry-items a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.right-entry .right-entry-items a span {
+    font-size: 13px;
+}
